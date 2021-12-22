@@ -13,3 +13,10 @@
 ### TensorFlow built-in features:
 ![light](https://user-images.githubusercontent.com/12748752/142005249-8b6ab63b-63e7-45bc-91cf-35dbc7a6aebf.png)
 <img src="https://user-images.githubusercontent.com/12748752/147031210-055e0752-da0f-4adf-84a2-b29de3546dc1.png" width=60% />
+### Tensorflow internals
+![light](https://user-images.githubusercontent.com/12748752/142005249-8b6ab63b-63e7-45bc-91cf-35dbc7a6aebf.png)
+* At the lowest level, each TensorFlow operation (op for short) is implemented using highly efficient C++ code. 
+* Many operations have multiple implementations called kernels: each kernel is dedicated to a specific device type, such as CPUs, GPUs, or even TPUs (tensor processing units). 
+* As you may know, GPUs can dramatically speed up computations by splitting them into many smaller chunks and running them in parallel across many GPU threads. 
+* TPUs are even faster: they are custom ASIC chips built specifically for Deep Learning operations.
+<img src="https://user-images.githubusercontent.com/12748752/147031845-002cdcf3-7874-4f46-9098-c571ee6153bf.png" width=40% />
