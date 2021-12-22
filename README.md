@@ -12,4 +12,4 @@
 * It implements _`autodiff`_ (_auto differentiation_, _reverse autodeff_ in _backpropagation_) and provides some excellent optimizers, such as _`RMSProp`_ and _`Nadam`_, so you can easily minimize all sorts of loss functions.
 ### TensorFlow built-in features:
 ![light](https://user-images.githubusercontent.com/12748752/142005249-8b6ab63b-63e7-45bc-91cf-35dbc7a6aebf.png)
-<img src="https://user-images.githubusercontent.com/12748752/147031210-055e0752-da0f-4adf-84a2-b29de3546dc1.png" width=50% />
+<img src="https://user-images.githubusercontent.com/12748752/147031210-055e0752-da0f-4adf-84a2-b29de3546dc1.png" width=60% />
